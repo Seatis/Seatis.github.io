@@ -3,7 +3,6 @@
 /*----------------------------------------*/
 /*-- Font Family --*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("css/montserrat.css");
 /*-- Common Style --*/
 body {
@@ -840,6 +839,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .header-area.stick .header-bottom .main-menu nav ul li a {
       padding-bottom: 26px;
       padding-top: 27px; }
+    /* NEW MENU style #$# */
+    .header-area.stick .header-bottom .main-menu nav ul li ul li a {
+      padding: 3px 20px; }
+    /* -- END -- */
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area.stick .header-bottom .main-menu nav ul li a {
           border: none;
@@ -1067,6 +1070,16 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       color: #0079cc; }
       .main-menu > nav > ul > li.active > a::before {
         width: 100%; }
+    /* NEW MENU style #$# */
+    .main-menu > nav > ul > li > ul > li:hover > a {
+      color: #0079cc; }
+      .main-menu > nav > ul > li > ul > li:hover > a::before {
+        width: 100%; }
+    .main-menu > nav > ul > li > ul > li.active > a {
+      color: #0079cc; }
+      .main-menu > nav > ul > li > ul > li.active > a::before {
+        width: 100%; }
+    /* -- END -- */
 
 /*----------------------------------------*/
 /*  3.  Hero Area
@@ -2593,4 +2606,78 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 #hirek {
     padding-top: 40px !important;
+}
+
+/* own css - ###spec*/
+
+div.news-container {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: 40px 1fr;
+  overflow: hidden;
+  padding-left: 100px;
+}
+
+div.img-container {
+  margin: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+
+div.news-container img {
+  width: 110px;
+  overflow: hidden;
+}
+
+div.news-container div.title {
+  padding: 10px;
+}
+
+div.news-container div.title span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  color: #5e5e5e;
+}
+
+div.news-container div.short-title {
+  padding-left: 10px;
+}
+
+div.news-container div.short-title span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.0em;
+  color: #b8b0b0;
+}
+
+div.news-container div.date {
+  padding-left: 10px;
+}
+
+div.news-container div.date span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.0em;
+  color: #b8b0b0;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.archive-month {
+  padding-left: 100px;
+}
+
+.archive-month h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #9b9a9a;
+  font-weight: 500;
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.archive-month h4.first-title {
+  margin-top: 0;
 }
