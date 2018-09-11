@@ -4,7 +4,7 @@ plugins:
   - name: password-protect
     options:
       password: $BASIC_AUTH_PASSWORD
-      loginPage: login.html
+      # loginPage: login.html
       maxFailures: 5
       failureWindow: 600
       lockoutDuration: 600
