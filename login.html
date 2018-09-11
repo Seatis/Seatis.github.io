@@ -3,27 +3,19 @@
     <head>
     </head>
     <body class="body">
-        <div class="container">
-            <header class="header">
-                <h1>Jekyll Auth<span>No servers required.</span></h1>
-            </header>
-            <div class="content center">
-                <!-- login form -->
-        <h6 class="error" id="password-error" style="color:red"><strong></strong></h6>
-        <form method="POST">
-          <label for="password">Jelszó</label>
-          <input class="u-full-width" type="password" placeholder="password" name="aerobatic-password" id="aerobatic-password">
-            <input class="button-primary" type="submit" value="Belépés">
-        </form>
-                <!-- /form -->
-            </div>
-        </div>
-        <!-- /container -->
-        <!-- JS -->
-        <script>
-            if (/fail=1/.test(location.search)) {
-              document.getElementById("password-error").innerHTML= "Incorrect Password" ;
-            }
-        </script>
+      <form class="login" method="post">
+        <h1 class="login-title">Simple Login</h1>
+        <div class="fail" style="display: block;" id="failMessage">Incorrect password</div>
+        <!-- <input type="text" class="login-input" placeholder="Email Adress" autofocus> -->
+        <input type="password" class="login-input" placeholder="Password">
+        <input type="submit" value="Lets Go" class="login-button">
+      </form>
+      <script>
+        (function() {
+          if (/fail=1/.test(location.search)) {
+            document.getElementById('failMessage').style.display = 'block';
+          }
+        })();
+      </script>
     </body>
 </html>
