@@ -1,3 +1,5 @@
+@import url("css/montserrat.css");
+
 body {
   background: #2d343d;
 }
@@ -8,6 +10,14 @@ body {
   padding: 30px 25px;
   background: white;
   border: 1px solid #c4c4c4;
+  font-family: Montserrat, sans-serif;
+}
+
+.login div.fail {
+  padding: 10px;
+  margin: 0 0 15px;
+  background-color: #DE4D4D;
+  color: #fff;
 }
 
 h1.login-title {
@@ -43,11 +53,17 @@ h1.login-title {
   font-size: 20px;
   color: #fff;
   text-align: center;
-  background: #f0776c;
+  /* background: #f0776c; */
+  background:  rgb(43, 124, 185);
+  transition: background-color 200ms ease;
   border: 0;
   border-radius: 5px;
   cursor: pointer; 
   outline:0;
+}
+
+.login-button:hover {
+  background-color: rgb(92, 172, 233);
 }
 
 .login-lost
