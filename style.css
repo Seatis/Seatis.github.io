@@ -2618,6 +2618,13 @@ div.news-container {
   padding-left: 100px;
 }
 
+@media only screen and (max-width: 767px) {
+  div.news-container {
+    grid-template-rows: 1fr 40px;
+    padding-left: 0;
+  }
+}
+
 div.img-container {
   margin: 5px;
   grid-column-start: 1;
@@ -2635,10 +2642,22 @@ div.news-container div.title {
   padding: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+  div.news-container div.title {
+    line-height: 140%;
+  }
+}
+
 div.news-container div.title span {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
   color: #5e5e5e;
+}
+
+@media only screen and (max-width: 767px) {
+  div.news-container div.title span {
+    font-size: 1em;
+  }
 }
 
 div.news-container div.short-title {
@@ -2670,12 +2689,26 @@ div.news-container div.date span {
   padding-left: 100px;
 }
 
+@media only screen and (max-width: 767px) {
+  .archive-month {
+    padding-left: 0;
+  }
+}
+
 .archive-month h4 {
   font-family: 'Montserrat', sans-serif;
   color: #9b9a9a;
   font-weight: 500;
   margin-top: 40px;
   font-size: 1.5em;
+}
+
+@media only screen and (max-width: 767px) {
+  .archive-month h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-top: 25px;
+  }
 }
 
 .archive-month h4.first-title {
