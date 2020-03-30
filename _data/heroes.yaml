@@ -44,3 +44,13 @@
     - url: /tartalom/12pont/
       caption: 12 Pontunk
       target: _self
+- background: /img/hero/edp-logo.jpg
+  image: /img/hero/edp-logo.jpg
+  topic: Új Kezdet és EDP
+  title: Az Új Kezdet Párt az Európai Demokrata Párt (EDP) teljes jogú tagja lett.
+  subtitle: >-
+  buttons:
+    - url: /files/edp/manifesto_hu.pdf
+      caption: Manifesztum
+      target: _self
+  url: /files/edp/manifesto_hu.pdf

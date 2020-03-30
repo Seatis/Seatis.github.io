@@ -43,7 +43,8 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 -----------------------------------*/
 $('.hero-slider').slick({
     arrows: false,
-    autoplay: false,
+	autoplay: true,
+	autoplaySpeed: 8000,
     dots: true,
     fade: true,
     infinite: true,

@@ -1398,6 +1398,242 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     -webkit-animation-delay: 2.8s;
     animation-delay: 2.8s; }
 
+
+/* Hero Slide Item 2 */
+
+.hs-item-2 {
+  background-position: center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 44, 74, 0.9);
+  height: 500px;
+  margin: 0;
+  position: relative; }
+  .hs-item-2::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2; }
+  .hs-item-2 .hs-item-2-wrapper {
+    padding: 85px 120px 0;
+    position: relative;
+    z-index: 3; }
+    @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+      .hs-item-2 .hs-item-2-wrapper {
+        padding: 85px 70px 0; } }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .hs-item-2 .hs-item-2-wrapper {
+        padding: 75px 50px 0; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .hs-item-2 .hs-item-2-wrapper {
+        padding: 60px 30px 0; } }
+    @media only screen and (max-width: 767px) {
+      .hs-item-2 .hs-item-2-wrapper {
+        padding: 40px 0 0;
+        width: 450px;
+        margin: 0 auto; } }
+    @media only screen and (max-width: 479px) {
+      .hs-item-2 .hs-item-2-wrapper {
+        padding: 25px 0 0;
+        width: 300px;
+        margin: 0 auto; } }
+  .hs-item-2 .hs-image {
+    margin-right: 45px;
+    width: 684px; }
+    @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+      .hs-item-2 .hs-image {
+        width: 474px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .hs-item-2 .hs-image {
+        width: 350px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .hs-item-2 .hs-image {
+        margin-right: 25px;
+        width: 273px; } }
+    @media only screen and (max-width: 767px) {
+      .hs-item-2 .hs-image {
+        margin-right: 15px;
+        width: 171px; } }
+    @media only screen and (max-width: 479px) {
+      .hs-item-2 .hs-image {
+        margin-right: 10px;
+        width: 107px; } }
+    .hs-item-2 .hs-image img {
+      width: 100%;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; }
+  .hs-item-2 .hs-content {
+    margin-bottom: 40px;
+    margin-top: 190px; }
+    @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+      .hs-item-2 .hs-content {
+        margin-top: 120px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .hs-item-2 .hs-content {
+        margin-top: 70px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .hs-item-2 .hs-content {
+        margin-top: 50px; } }
+    @media only screen and (max-width: 767px) {
+      .hs-item-2 .hs-content {
+        margin-top: 30px; } }
+    @media only screen and (max-width: 479px) {
+      .hs-item-2 .hs-content {
+        margin-top: 20px; } }
+    .hs-item-2 .hs-content * {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; }
+    .hs-item-2 .hs-content h2 {
+      font-size: 30px;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 8px;
+      text-transform: uppercase; }
+      @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+        .hs-item-2 .hs-content h2 {
+          font-size: 24px; } }
+      @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .hs-item-2 .hs-content h2 {
+          font-size: 20px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .hs-item-2 .hs-content h2 {
+          font-size: 16px; } }
+      @media only screen and (max-width: 767px) {
+        .hs-item-2 .hs-content h2 {
+          font-size: 14px; } }
+      @media only screen and (max-width: 479px) {
+        .hs-item-2 .hs-content h2 {
+          font-size: 10px; } }
+    .hs-item-2 .hs-content h1 {
+      font-size: 44px;
+      color: #fff;
+      margin-bottom: 17px;
+      font-weight: 600;
+      text-transform: uppercase; }
+      @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+        .hs-item-2 .hs-content h1 {
+          font-size: 36px; } }
+      @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .hs-item-2 .hs-content h1 {
+          font-size: 26px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .hs-item-2 .hs-content h1 {
+          font-size: 20px; } }
+      @media only screen and (max-width: 767px) {
+        .hs-item-2 .hs-content h1 {
+          font-size: 20px; } }
+      @media only screen and (max-width: 479px) {
+        .hs-item-2 .hs-content h1 {
+          font-size: 14px;
+          margin-bottom: 5px; } }
+    .hs-item-2 .hs-content p {
+      font-size: 18px;
+      font-family: Montserrat;
+      color: #fff;
+      font-weight: 300;
+      line-height: 28px;
+      margin-bottom: 43px;
+      max-width: 770px; }
+      @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+        .hs-item-2 .hs-content p {
+          font-size: 16px;
+          max-width: 680px; } }
+      @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .hs-item-2 .hs-content p {
+          font-size: 14px;
+          margin-bottom: 25px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .hs-item-2 .hs-content p {
+          font-size: 12px;
+          margin-bottom: 15px;
+          line-height: 20px; } }
+      @media only screen and (max-width: 767px) {
+        .hs-item-2 .hs-content p {
+          display: none; } }
+      @media only screen and (max-width: 479px) {
+        .hs-item-2 .hs-content p {
+          display: none; } }
+    .hs-item-2 .hs-content a {
+      background-color: transparent;
+      border-color: #fff; }
+      @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .hs-item-2 .hs-content a {
+          font-size: 14px;
+          height: 40px;
+          padding: 8px 25px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .hs-item-2 .hs-content a {
+          font-size: 12px;
+          height: 36px;
+          padding: 5px 20px; } }
+      @media only screen and (max-width: 767px) {
+        .hs-item-2 .hs-content a {
+          font-size: 10px;
+          height: 30px;
+          padding: 3px 10px; } }
+      @media only screen and (max-width: 479px) {
+        .hs-item-2 .hs-content a {
+          font-size: 8px;
+          height: 26px;
+          padding: 1px 7px; } }
+      .hs-item-2 .hs-content a:hover {
+        background-color: #fff;
+        color: #0079cc; }
+      .hs-item-2 .hs-content a i {
+        font-size: 21px;
+        line-height: 18px;
+        margin-left: 8px;
+        position: relative;
+        top: 2px; }
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+          .hs-item-2 .hs-content a i {
+            top: 3px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .hs-item-2 .hs-content a i {
+            font-size: 19px;
+            top: 3px; } }
+        @media only screen and (max-width: 767px) {
+          .hs-item-2 .hs-content a i {
+            font-size: 15px; } }
+        @media only screen and (max-width: 479px) {
+          .hs-item-2 .hs-content a i {
+            font-size: 12px;
+            margin-left: 3px; } }
+  .hs-item-2.slick-current .hs-image img {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s; }
+  .hs-item-2.slick-current .hs-content h2 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s; }
+  .hs-item-2.slick-current .hs-content h1 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s; }
+  .hs-item-2.slick-current .hs-content p {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 2.3s;
+    animation-delay: 2.3s; }
+  .hs-item-2.slick-current .hs-content a {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s; }
+
+
 /*----------------------------------------*/
 /*  4.  ABout Area
 /*----------------------------------------*/
@@ -2762,3 +2998,72 @@ div.news-container div.date span {
 .archive-month h4.first-title {
   margin-top: 0;
 }
+
+/* awareness.html css */
+
+div.warn-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  font-size: 20px;
+}
+
+div.press-container {
+  font-size: 18px;
+}
+
+div.press-container img {
+  width: 400px;
+  float: left;
+}
+
+@media all and (max-width: 800px) {
+
+  div.press-container {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  div.press-container img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+div.w-img-area img {
+  max-width: 500px;
+}
+
+div.w-text-area {
+  line-height: 150%;
+}
+
+@media all and (max-width: 800px) {
+  div.warn-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  div.w-img-area img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+div.edpimg img {
+  max-width: 800px;
+  margin-bottom: 10px;
+}
+
+@media all and (max-width: 800px) {
+  div.edpimg img {
+    width: 100%;
+    height: auto;
+  }
+}
+

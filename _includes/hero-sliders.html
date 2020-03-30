@@ -1,9 +1,8 @@
-
         {% for hero in site.data.heroes %}
             <div class="hs-item" style="background-image: url({{hero.background}})">
                 <div class="hs-item-wrapper fix">
                     <div class="hs-image float-left uk-white">
-                        <img src="{{hero.image}}" alt="">
+                        <a style="margin-bottom: -10px" href="{{hero.url}}"><img src="{{hero.image}}" alt=""></a>
                     </div>
                     <div class="hs-content fix">
                         <h2>{{hero.topic}}</h2>

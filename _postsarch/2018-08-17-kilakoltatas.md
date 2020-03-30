@@ -10,4 +10,4 @@ link: /cikk/2018-08-17-kilakoltatas
 Az Új Kezdet ezért felszólítja a Kormányt, hogy haladéktalanul kezdje meg az egyeztetéseket az érintettekkel, egy kiszámítható és a fenyegetett családok biztonságát garantáló helyzet megteremtése érdekében!*
 
 Budapest, 2018. 08. 17.<br><br>
-Új Kezdet Elnöksége222
+Új Kezdet Elnöksége

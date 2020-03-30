@@ -1,8 +1,8 @@
 ---
 title: Hohn Krisztina
-role: alelnök, OGY képviselő
+role: elnök, <br /> Országgyűlési képviselő Új Kezdet-LMP frakció, <br />az Országgyűlés Költségvetési Bizottságának alelnöke
 layout: boardmember
-order: 5
+order: 2
 email: hohn.krisztina@ujkezdet.hu
 phone:
 thumb: "/img/team/hohn_krisztina-thumb.png"

@@ -8,6 +8,9 @@ layout: default
     </div>
 </div>
 
+<!-- {% include conference.html %} -->
+<!-- {% include press.html %} -->
+{% include awareness.html %}
 {% include news.html %}
 {% include board.html %}
 {% include call-to-action.html %}
