@@ -12,6 +12,9 @@
     - title: separator
     - title: Archívum
       url: /tartalom/archivum
+    - title: separator
+    - title: Dokumentumok
+      url: /tartalom/dokumentumok
 - title: Vezetőség
   url: /#vezetoseg
 - title: Választási program
